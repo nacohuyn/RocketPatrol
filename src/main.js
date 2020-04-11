@@ -5,4 +5,8 @@ let config = {
     scene: [ Menu, Play ]
 };
 
+//main game object
 let game = new Phaser.Game(config);
+
+// reserve keyboard vars
+let keyF, keyLEFT, keyRIGHT;
